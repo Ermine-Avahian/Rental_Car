@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 120px;
+  background-color: #f2f4f7;
+  border-bottom: 2px solid white;
+}
+
+.navList {
+  display: flex;
+  gap: 32px;
+}
+
+.item {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.activeItem {
+  color: #0b44cd;
+}
