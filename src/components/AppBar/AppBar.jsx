@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom";
-import s from "./Header.module.css";
+import s from "./AppBar.module.css";
 import clsx from "clsx";
 import logo from "./RentalCar.svg";
 
-export default function Header() {
-  const buildLinkClass = ({ isActive }) =>
-    clsx(s.item, isActive && s.activeItem);
+export default function AppBar() {
+  const buildLinkClass = ({ isActive }) => clsx(s.link, isActive && s.active);
 
   return (
     <header className={s.header}>
@@ -14,12 +13,12 @@ export default function Header() {
       <nav>
         <ul className={s.navList}>
           <li>
-            <NavLink className={buildLinkClass} to="/">
+            <NavLink end className={buildLinkClass} to="/">
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink className={buildLinkClass} to="/catalog">
+            <NavLink end className={buildLinkClass} to="/catalog">
               Catalog
             </NavLink>
           </li>

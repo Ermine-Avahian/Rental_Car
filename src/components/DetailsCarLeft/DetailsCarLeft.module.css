@@ -1,0 +1,82 @@
+.wrapper {
+  flex: 1;
+  max-width: 640px;
+}
+
+.image {
+  border-radius: 19px;
+  margin-bottom: 40px;
+}
+
+.formTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.formSubtitle {
+  color: #8d929a;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.bookingForm {
+  padding: 32px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  max-width: 640px;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+.textarea {
+  padding: 12px 20px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  color: #8d929a;
+  background-color: #f7f7f7;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.textarea {
+  margin-bottom: 24px;
+  resize: none;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 12px 51px;
+  max-width: 156px;
+  background-color: #3470ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #0b44cd;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}

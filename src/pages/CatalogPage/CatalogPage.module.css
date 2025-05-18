@@ -1,0 +1,23 @@
+.catalogPage {
+  padding-top: 84px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  border-radius: 12px;
+  border: 1px solid #3470ff;
+  padding: 12px 51px;
+  font-weight: 600;
+  background-color: white;
+  margin-bottom: 100px;
+  transition: color 0.3s ease;
+}
+
+.button:hover {
+  border-color: #0b44cd;
+}

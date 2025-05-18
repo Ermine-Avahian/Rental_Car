@@ -1,12 +1,46 @@
-# React + Vite
+RentalCar Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Короткий опис
+Цей проєкт — фронтенд частина веб-додатку для компанії RentalCar, що спеціалізується на оренді автомобілів. Додаток дозволяє користувачам переглядати каталог доступних транспортних засобів, фільтрувати їх, додавати у вибране та оформлювати оренду через форму бронювання.
 
-Currently, two official plugins are available:
+Основні функції
+Домашня сторінка з банером і закликом до дії.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Каталог автомобілів з можливістю фільтрації за брендом, ціною та пробігом (фільтрація виконується на бекенді).
 
-## Expanding the ESLint configuration
+Додавання автомобілів до списку обраних з збереженням списку при оновленні сторінки.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Сторінка деталей автомобіля з детальним описом, фото та формою для оренди.
+
+Пагінація на сторінці каталогу з кнопкою "Load More".
+
+Повідомлення про успішне оформлення оренди.
+
+Маршрутизація між сторінками за допомогою React Router.
+
+Технології
+React з Vite (бандлер)
+
+Redux для управління станом
+
+React Router для маршрутизації
+
+Axios для HTTP-запитів
+
+CSS Modules для стилізації компонентів
+
+Використання
+На головній сторінці натисніть кнопку View Catalog, щоб перейти до каталогу авто.
+
+Використовуйте фільтри для пошуку авто за брендом, ціною та пробігом.
+
+Натискайте Read more на будь-якому автомобілі, щоб перейти на сторінку з деталями і орендувати його.
+
+Додавайте авто у список обраних для швидкого доступу.
+
+Використовуйте кнопку Load More для завантаження додаткових авто.
+
+Інформація про автора
+Ерміне Авагян
+Email: avahian.hem@gmail.com
+GitHub: https://github.com/Ermine-Avahian/Rental_Car

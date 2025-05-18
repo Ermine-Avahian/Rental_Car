@@ -1,0 +1,80 @@
+.wrapperDetails {
+  flex: 2;
+  max-width: 488px;
+}
+
+.topRow {
+  margin-bottom: 60px;
+}
+
+.carTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.id {
+  color: #8d929a;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.locationCompany {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.locationIcon {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.circleIcon {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.rentalPrice {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3470ff;
+  margin-bottom: 25px;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.listItem {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.listItem:last-child {
+  margin-bottom: 0;
+}
+
+.section {
+  margin-bottom: 90px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
